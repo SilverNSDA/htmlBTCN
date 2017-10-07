@@ -6,6 +6,12 @@
 	max-height:100%;
 	color: rgb(255,255,255);
 }
+.center {
+	text-align:center;
+}
+.left {
+	text-align:left;
+}
 .navigation {
   font-size: 15px;
   font-family: "Helvetica";
@@ -30,18 +36,43 @@
 	text-align:center;
 	float:left;
 }
-@media screen and (min-width:360px) {
-	
+.body {
+	margin-top:100px;
 }
-@media screen and (min-width:480px) {
-	
+.body_div {
+	margin-top:25px;
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:0px;
+	float:left;
 }
-@media screen and (min-width:960px) {
-	
+.body_title {
+  font-size: 48px;
+  font-family: "ChunkFive";
+  color: rgb(0, 0, 0)!important;
+  line-height: 0.5;
+  text-align: left;
+  position: inherit;
+  left: 226.938px;
+  top: 157.761px;
+  width: 388px;
+  height: 47px;
+  font-weight:bold;
+  z-index: 36;
 }
-@media screen and (min-width:1280px) {
-	
+.body_text {
+  font-size: 21px;
+  font-family: "DroidSerif";
+  color: rgb(0, 0, 0);
+  line-height: 30px;
+  text-align: left;
+  position: inherit;
+  left: 230.194px;
+  top: 236.89px;
+  width: 518px;
+  height: 139px;
+  z-index: 37;
 }
-@media screen and (min-width:1400px) {
-	
-}
+
+
+
